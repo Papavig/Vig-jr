@@ -1,13 +1,23 @@
 {
-  "scripts": {
-    "start": "nodemon index.js"
+  "name": "vig-jr",
+  "version": "1.0.0",
+  "description": "AI discord bot :)",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papavig/Vig-jr.git"
   },
+  "author": "Vignesh Esakkiappan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papavig/Vig-jr/issues"
+  },
+  "homepage": "https://github.com/Papavig/Vig-jr#readme",
+
   "dependencies": {
     "@google/generative-ai": "^0.17.1",
     "discord.js": "^14.15.3",
-    "dotenv": "^16.4.5",
-    "fs": "^0.0.1-security",
-    "nodemon": "^3.1.4",
-    "path": "^0.12.7"
+    "dotenv": "^16.4.5"
   }
 }
